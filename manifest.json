@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "JGO Enhancer",
+	"version": "1.0",
+
+	"description": "Enhances the JGO experience.",
+
+	"author": "Roi Atalla",
+
+	"content_scripts": [
+		{
+			"matches": ["http://www.java-gaming.org/index.php?action=unread;all"],
+			"js": ["jgo-enhancer.js"]
+		}
+	]
+}
