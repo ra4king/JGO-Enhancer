@@ -4,6 +4,11 @@
 	"version": "1.0",
 
 	"description": "Enhances the JGO experience.",
+	
+	"icons": {
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
 
 	"author": "Roi Atalla",
 
