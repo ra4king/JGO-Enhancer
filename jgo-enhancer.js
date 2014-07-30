@@ -14,7 +14,8 @@ if(document.contains(markAllRead2)) {
 		"if(document.links[a].href.lastIndexOf('#new') > 0) {" +
 			"var evt = document.createEvent('MouseEvents');" +
 			"evt.initMouseEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 1, null);" +
-			"document.links[a].dispatchEvent(evt);}}\">Open Below Threads in a New Tab</a>";
+			"document.links[a].dispatchEvent(evt);}}" +
+			"setTimeout(function () { location.reload(true); }, 5000);\">Open Below Threads in a New Tab</a>";
 	var markAllRead = document.getElementsByClassName("mirrortab_back")[0];
 	markAllRead.parentNode.insertBefore(openAll, markAllRead);
 
