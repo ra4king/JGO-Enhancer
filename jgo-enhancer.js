@@ -15,7 +15,7 @@ if(document.contains(markAllRead2)) {
 			"var evt = document.createEvent('MouseEvents');" +
 			"evt.initMouseEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 1, null);" +
 			"document.links[a].dispatchEvent(evt);}}" +
-			"setTimeout(function () { location.reload(true); }, 5000);\">Open Below Threads in a New Tab</a>";
+			"setTimeout(function () { location.reload(true); }, 5000);\">Open Below Threads in New Tabs</a>";
 	var markAllRead = document.getElementsByClassName("mirrortab_back")[0];
 	markAllRead.parentNode.insertBefore(openAll, markAllRead);
 
