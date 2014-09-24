@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "JGO Enhancer",
-	"version": "1.1",
+	"version": "1.2",
 
 	"description": "Enhances the JGO experience.",
 	
@@ -14,7 +14,7 @@
 
 	"content_scripts": [
 		{
-			"matches": ["http://www.java-gaming.org/index.php?action=unread;all"],
+			"matches": ["http://www.java-gaming.org/index.php?action=unread;all*"],
 			"js": ["jgo-enhancer.js"]
 		}
 	]
